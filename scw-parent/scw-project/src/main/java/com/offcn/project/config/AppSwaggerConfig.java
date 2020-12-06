@@ -16,6 +16,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2 //开启swagger的配置
 public class AppSwaggerConfig {
 
+    //
+    //
+    //
     //swagger的介绍方法
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
