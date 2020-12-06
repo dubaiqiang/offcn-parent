@@ -14,7 +14,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @ApiModel("测试实体") //Swagger的注解
 public class User implements Serializable {
-
+//
     @ApiModelProperty(value = "主键")
     private Long id;
     @ApiModelProperty(value = "姓名")
